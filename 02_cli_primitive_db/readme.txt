@@ -1,3 +1,5 @@
+db.txt will be created after run
+
 INSTALL PACKAGES => npm i
 
 RUN APP => npm run start
