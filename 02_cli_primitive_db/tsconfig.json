@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": [
+      "es6",
+      "es2021",
+      "esnext"
+    ],
+    "target": "es6",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noImplicitAny": false
+  }
+}
