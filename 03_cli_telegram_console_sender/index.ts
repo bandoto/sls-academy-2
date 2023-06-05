@@ -3,8 +3,8 @@
 import TelegramBot from 'node-telegram-bot-api';
 import { program } from "commander";
 
-const TELEGRAM_TOKEN = '';
-const CHAT_ID = ''; // Run "node index.js start" to get current chat id
+const TELEGRAM_TOKEN = '6280016824:AAEKj2l7eNe8xVQD4su2Xww-T6EP-KAZ0Ik';
+const CHAT_ID = '341620799'; // Run "node index.js start" to get current chat id
 // @ts-ignore
 process.env["NTBA_FIX_350"] = 1;
 
