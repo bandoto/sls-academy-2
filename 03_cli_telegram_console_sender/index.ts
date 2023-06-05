@@ -45,7 +45,7 @@ const main = async () => {
         .description('Send message to Telegram Bot')
         .alias('m')
         .argument('<message>', 'message from bot')
-        .action(async (message) => {
+        .action(async (message: string) => {
             await sendMessage(CHAT_ID, message);
         })
 
@@ -53,7 +53,7 @@ const main = async () => {
         .description('Send photo to Telegram Bot')
         .alias('p')
         .argument('<photo>', 'photo from bot')
-        .action(async (photo) => {
+        .action(async (photo: string) => {
             await sendPhoto(CHAT_ID, photo)
         })
 
