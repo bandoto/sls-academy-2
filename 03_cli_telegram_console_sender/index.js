@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import TelegramBot from 'node-telegram-bot-api';
 import { program } from "commander";
 const TELEGRAM_TOKEN = '6280016824:AAEKj2l7eNe8xVQD4su2Xww-T6EP-KAZ0Ik';
-const CHAT_ID = '341620799';
+const CHAT_ID = '341620799'; // Run "node index.js start" to get current chat id
 // @ts-ignore
 process.env["NTBA_FIX_350"] = 1;
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
@@ -32,7 +32,7 @@ const getChatId = () => __awaiter(void 0, void 0, void 0, function* () {
 });
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     program.command('start')
-        .description('Get current chet ID')
+        .description('Get current chat ID')
         .alias('s')
         .action(() => __awaiter(void 0, void 0, void 0, function* () {
         yield getChatId();
