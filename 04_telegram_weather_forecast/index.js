@@ -11,8 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import TelegramBot from 'node-telegram-bot-api';
 import axios from "axios";
 import { forecastButton, intervalButton } from "./buttons.js";
-const TELEGRAM_TOKEN = '6250022760:AAGXXBiiWkVRE_hHdOBhtrzGOgirIRteSEg';
-const API_KEY = 'a0e819c2fb91a187e2df2bd9d7d59f79';
+const TELEGRAM_TOKEN = '';
+const API_KEY = '';
 const API_LINK = 'https://api.openweathermap.org/data/2.5/forecast';
 const CITY = 'Poltava';
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
