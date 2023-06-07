@@ -1,5 +1,3 @@
-https://t.me/WeatherSLSTgBot
-
 INSTALL PACKAGES => npm i
 
 RUN APP => npm run start
